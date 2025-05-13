@@ -1,0 +1,31 @@
+{
+  "name": "My Radio App",
+  "short_name": "Radio App",
+  "description": "A Progressive Web App for streaming radio stations",
+  "theme_color": "#1A1A1A",
+  "background_color": "#1A1A1A",
+  "display": "standalone",
+  "start_url": "/",
+  "id": "/",
+  "icons": [
+    {
+      "src": "/radio.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
