@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "description": "A desktop radio PWA packaged with Electron",
-  "author": "mindaugaswashere",
+  "author": {
+    "name": "Mindaugas Kurlys",
+    "email": "mindaugas.kurlys@gmail.com"
+  },
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
