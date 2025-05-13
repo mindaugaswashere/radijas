@@ -1,0 +1,6 @@
+{
+  "name": "radijas-electron",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {}
+}

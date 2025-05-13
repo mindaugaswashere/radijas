@@ -1,0 +1,9 @@
+{
+  "appId": "com.mindaugaswashere.radijas",
+  "productName": "Radijas",
+  "files": ["dist/**/*", "electron/**/*"],
+  "directories": {
+    "output": "release"
+  },
+  "asar": false
+}
