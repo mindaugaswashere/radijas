@@ -1,33 +1,16 @@
 import React, { useState } from "react";
 import { Card, CardContent, Button, Slider, Typography } from "@mui/material";
-import { PlayArrow, Pause } from "@mui/icons-material";
+import { PlayArrow, Pause, Label } from "@mui/icons-material";
+import data from "./data/stations.json";
 
-const stations = [
-  { name: "Lietus AAC", url: "https://stream.m-1.fm/lietus/aacp64" },
-  { name: "Zip Fm mp3", url: "https://stream1.zipfm.lt/zipfm128.mp3" },
-  { name: "M-1 AAC", url: "https://stream.m-1.fm/m1/aacp64" },
-  { name: "M-1 plius AAC", url: "https://radio.m-1.fm/m1plius/aacp64" },
-  { name: "M-1 dance AAC", url: "https://radio.m-1.fm/m-1dance/mp3" },
-  { name: "Lrt Radijas", url: "https://lrt-cast.lrt.lt/lrt_radijas" },
-  {
-    name: "Power Hit Radio AAC",
-    url: "https://stream.rcs.revma.com/f31w7e0fveuvv",
-  },
-  { name: "Gold FM mp3", url: "http://82.135.234.195:8000/goldfm.mp3" },
-  { name: "Radio Centras mp3", url: "https://stream1.rc.lt/rc128.mp3" },
-  { name: "Lrt opus", url: "http://lrt-cast.lrt.lt:8000/lrt_opus" },
-  { name: "Lrt klasika", url: "http://lrt-cast.lrt.lt:8000/lrt_klasika" },
-  { name: "Relax fm mp3", url: "https://stream1.relaxfm.lt/relaxfm128.mp3" },
-  { name: "Ziniu radijas mp3", url: "https://netradio.ziniur.lt/ziniur.mp3" },
-  { name: "Kelyje mp3", url: "http://212.95.45.82:8024/stream" },
-  { name: "European Hit radio", url: "https://stream.ehr.lt:8443/ehr" },
-  {
-    name: "Saules radijas mp3",
-    url: "http://saule-mp3.vinlita.lt:8008/stream.mp3",
-  },
-];
+type Station = {
+  name: string;
+  url: string;
+};
 
 export default function RadioPlayer() {
+  let stations: Station[] = [];
+  const [display, setDisplay] = useState(0);
   const [currentStation, setCurrentStation] = useState<any>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(100);
@@ -54,9 +37,58 @@ export default function RadioPlayer() {
       audioRef.current.volume = newValue / 100; // Set volume when changed
     }
   };
+  if (display === 0) {
+    stations = data.lt;
+  }
+  if (display === 1) {
+    stations = data.furiaga;
+  }
+
+  if (display === 2) {
+    stations = data.usa;
+  }
 
   return (
     <div style={{ backgroundColor: "#1A1A1A", minHeight: "100vh" }}>
+      <Label>Change display: </Label>
+      <Button
+        style={{
+          backgroundColor: "#4caf50",
+          color: "white",
+          fontWeight: "bold",
+          marginTop: "8px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+        }}
+        onClick={() => setDisplay(0)}
+      >
+        Lietuviskos
+      </Button>
+      <Button
+        style={{
+          marginLeft: 20,
+          backgroundColor: "#4caf50",
+          color: "white",
+          fontWeight: "bold",
+          marginTop: "8px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+        }}
+        onClick={() => setDisplay(1)}
+      >
+        EuroTruck
+      </Button>
+      <Button
+        style={{
+          marginLeft: 20,
+          backgroundColor: "#4caf50",
+          color: "white",
+          fontWeight: "bold",
+          marginTop: "8px",
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+        }}
+        onClick={() => setDisplay(2)}
+      >
+        USA
+      </Button>
       {/* Radio Station Cards */}
       <div
         style={{

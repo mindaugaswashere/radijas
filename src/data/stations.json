@@ -1,0 +1,1593 @@
+{
+  "lt": [
+    { "name": "Lietus AAC", "url": "https://stream.m-1.fm/lietus/aacp64" },
+    { "name": "Zip Fm mp3", "url": "https://stream1.zipfm.lt/zipfm128.mp3" },
+    { "name": "M-1 AAC", "url": "https://stream.m-1.fm/m1/aacp64" },
+    { "name": "M-1 plius AAC", "url": "https://radio.m-1.fm/m1plius/aacp64" },
+    { "name": "M-1 dance AAC", "url": "https://radio.m-1.fm/m-1dance/mp3" },
+    { "name": "Lrt Radijas", "url": "https://lrt-cast.lrt.lt/lrt_radijas" },
+    {
+      "name": "Power Hit Radio AAC",
+      "url": "https://stream.rcs.revma.com/f31w7e0fveuvv"
+    },
+    { "name": "Gold FM mp3", "url": "http://82.135.234.195:8000/goldfm.mp3" },
+    { "name": "Radio Centras mp3", "url": "https://stream1.rc.lt/rc128.mp3" },
+    { "name": "Lrt opus", "url": "http://lrt-cast.lrt.lt:8000/lrt_opus" },
+    { "name": "Lrt klasika", "url": "http://lrt-cast.lrt.lt:8000/lrt_klasika" },
+    {
+      "name": "Relax fm mp3",
+      "url": "https://stream1.relaxfm.lt/relaxfm128.mp3"
+    },
+    {
+      "name": "Ziniu radijas mp3",
+      "url": "https://netradio.ziniur.lt/ziniur.mp3"
+    },
+    { "name": "Kelyje mp3", "url": "http://212.95.45.82:8024/stream" },
+    { "name": "European Hit radio", "url": "https://stream.ehr.lt:8443/ehr" },
+    {
+      "name": "Saules radijas mp3",
+      "url": "http://saule-mp3.vinlita.lt:8008/stream.mp3"
+    }
+  ],
+  "furiaga": [
+    { "name": "TruckersFM", "url": "https://live.truckers.fm" },
+    {
+      "name": "Simulator Radio",
+      "url": "https://simulatorradio.stream/stream"
+    },
+    { "name": "Truck sim fm", "url": "https://live.trucksim.fm/" }
+  ],
+  "usa": [
+    {
+      "name": "K-Chapel 97.1 Arcata, CA",
+      "url": "http://c5.radioboss.fm:8077/autodj"
+    },
+    {
+      "name": "Humboldt FM Arcata, CA",
+      "url": "https://ais-sa2.cdnstream1.com/2188_128.mp3"
+    },
+    {
+      "name": "La Caliente 96.9 Bakersfield, CA",
+      "url": "http://live.amperwave.net/direct/agmedia28-kebtfmmp3-ibc3"
+    },
+    {
+      "name": "KPRX Bakersfield, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPRFM.mp3"
+    },
+    {
+      "name": "Energy 95.3 Bakersfield, CA",
+      "url": "http://live.amperwave.net/direct/alphacorporate-kllyfmmp3-ibc4"
+    },
+    {
+      "name": "KUZZ AM 55/FM 107.9 Bakersfield, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUZZ.mp3"
+    },
+    {
+      "name": "The Groove 99.3 Bakersfield, CA",
+      "url": "http://live.amperwave.net/direct/alphacorporate-kkbbfmmp3-ibc4"
+    },
+    {
+      "name": "HOT 94.1 FM Bakersfield, CA",
+      "url": "http://live.amperwave.net/direct/agmedia28-kisvfmmp3-ibc3"
+    },
+    {
+      "name": "KGEO 101.1 FM ESPN Bakersfield",
+      "url": "http://live.amperwave.net/direct/agmedia28-kgeoammp3-ibc3"
+    },
+    {
+      "name": "La Redencion 103.5 Bakersfield, CA",
+      "url": "https://stream10.usastreams.com/8016/stream"
+    },
+    {
+      "name": "KHDR 96.9 FM The Drive Barstow, CA",
+      "url": "https://ais-edge08-live365-dal02.cdnstream.com/a98605"
+    },
+    {
+      "name": "Desert Heat Radio Barstow, CA",
+      "url": "http://162.255.84.51:8000/live"
+    },
+    {
+      "name": "KWTW Living Proof Radio Bishop, CA",
+      "url": "https://server.streamingrad.io/radio/8060/radio"
+    },
+    {
+      "name": "Saint John Paul II Catholic Radio FM El Centro, CA",
+      "url": "http://jp2radio.stream.miriamtech.net:8000/jp2radio.mp3"
+    },
+    {
+      "name": "Humboldt 101 Eureka, CA",
+      "url": "https://ais-sa2.cdnstream1.com/2188_128.mp3"
+    },
+    {
+      "name": "101 Thunder Country Eureka, CA",
+      "url": "http://eurekaradio.streamguys1.com/live3"
+    },
+    {
+      "name": "93.7 Kiss Country Fresno, CA",
+      "url": "https://22973.live.streamtheworld.com/KSKSFM.mp3"
+    },
+    {
+      "name": "580 AM KMJ News/Talk Radio Fresno, CA",
+      "url": "https://14983.live.streamtheworld.com/KMJAM.mp3"
+    },
+    {
+      "name": "Valley Public Radio Classical Stream Fresno, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPR_CLASSICAL.mp3"
+    },
+    {
+      "name": "Y 101 - Today's Best Hits Fresno, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KWYEFM.mp3"
+    },
+    {
+      "name": "Exitos 107.1 Fresno, CA",
+      "url": "https://17803.live.streamtheworld.com/KHITFM.mp3"
+    },
+    {
+      "name": "KQEQ 1210AM Radio Punjab Fresno, CA",
+      "url": "http://stream.zeno.fm/2g80rm2g3s5tv"
+    },
+    {
+      "name": "KBIF 900 AM Fresno, CA",
+      "url": "http://www.dinnerjazzexcursion.com:8000/KBIF2"
+    },
+    {
+      "name": "KFCF FM 88.1 Fresno, CA",
+      "url": "http://stream.kfcf.org:8000/128"
+    },
+    {
+      "name": "Valley Public Radio News Stream Fresno, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPRFM.mp3"
+    },
+    {
+      "name": "101.9 La Buena KLBN-FM Fresno, CA",
+      "url": "https://18243.live.streamtheworld.com/KLBNFM.mp3"
+    },
+    {
+      "name": "Mega 97.9 Fresno CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMGVFM.mp3"
+    },
+    {
+      "name": "KGED Bendita Eucaristia Radio Fresno, CA",
+      "url": "http://stream.radiojar.com/24yz3xqcaruvv"
+    },
+    { "name": "KFSR Fresno, CA", "url": "http://icecast.auxiliary.com/kfsr" },
+    {
+      "name": "KKBZ Rock 105.1 FM Fresno, CA",
+      "url": "https://23023.live.streamtheworld.com/KKBZFM.mp3"
+    },
+    {
+      "name": "La Tricolor Los Angeles, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRNVFM.mp3"
+    },
+    {
+      "name": "La Suavecita Los Angeles, CA / Santa Cruz, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNVOFM.mp3"
+    },
+    {
+      "name": "Classical KUSC Los Angeles, CA",
+      "url": "https://23103.live.streamtheworld.com/KUSCMP128.mp3"
+    },
+    {
+      "name": "Jose 97.5 FM Los Angeles, CA",
+      "url": "https://27163.live.streamtheworld.com/KLYYFM.mp3"
+    },
+    {
+      "name": "94.7 The Wave Los Angeles, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTWVFM.mp3"
+    },
+    {
+      "name": "K-EARTH 101 Los Angeles, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KRTHFM.mp3"
+    },
+    {
+      "name": "KNX 1070 Newsradio Los Angeles, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KNXAM.mp3"
+    },
+    { "name": "KPFK Los Angeles, CA", "url": "http://kpft.org:8000/kpfk_128" },
+    {
+      "name": "K-Jazz 88.1 Los Angeles, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKJZFM.mp3"
+    },
+    {
+      "name": "KAZN Los Angeles, CA",
+      "url": "http://mobilewzrc.serverroom.us:6914/;stream.mp3"
+    },
+    {
+      "name": "KLOS-FM Los Angeles, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KLOSFM.mp3"
+    },
+    {
+      "name": "Radio Korea Los Angeles, CA",
+      "url": "http://38.106.56.119:8000/live"
+    },
+    {
+      "name": "GBC 1190 AM Los Angeles, CA",
+      "url": "https://streamer.radio.co/scb2948df3/listen"
+    },
+    {
+      "name": "Angels Radio Los Angeles, CA",
+      "url": "http://klaa.streamguys1.com/live"
+    },
+    {
+      "name": "KQBH 101.5 FM Los Angeles, CA",
+      "url": "http://ednixon.com:8170/stream"
+    },
+    {
+      "name": "Eclectic24 89.9 Los Angeles, CA",
+      "url": "https://kcrw.streamguys1.com/kcrw_192k_mp3_e24"
+    },
+    {
+      "name": "Current Radio 89.3 FM Los Angeles, CA",
+      "url": "https://current.stream.publicradio.org/kcmp.mp3"
+    },
+    {
+      "name": "KXLU 88.9 FM Los Angeles, CA",
+      "url": "http://www.ednixon.com:8120/stream"
+    },
+    {
+      "name": "88.5 FM The SoCal Sound Los Angeles, CA",
+      "url": "http://130.166.82.184:8000/;stream.mp3"
+    },
+    {
+      "name": "Latin Alt 88.5-HD3 Los Angeles, CA",
+      "url": "https://stream.885fm.org/latinalt/stream.mp3"
+    },
+    {
+      "name": "Dash Radio - Monsters of Rock Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH14"
+    },
+    {
+      "name": "Dash Radio - The 70s Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH26"
+    },
+    {
+      "name": "Dash Radio - The 60s Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH34"
+    },
+    {
+      "name": "Dash Radio - Beat Junkie Radio Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH51"
+    },
+    {
+      "name": "Dash Radio - 10 Dash 20 Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH52"
+    },
+    {
+      "name": "Dash Radio - Afrobeats Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH64"
+    },
+    {
+      "name": "Dash Radio - Alt X Classics Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH83"
+    },
+    {
+      "name": "Dash Radio Laugh Factory Los Angeles, CA",
+      "url": "https://ice55.securenetsystems.net/DASH92"
+    },
+    {
+      "name": "KDGL The Eagle 106.9 FM Los Angeles/Coachella, CA",
+      "url": "http://34.233.180.137/alphacorporate-kdglfmmp3-im?session-id=4f576a90e0e6137d8f8dfa09866718a5"
+    },
+    {
+      "name": "Kat Country 103 - Modesto, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KATMFM.mp3"
+    },
+    {
+      "name": "KHOP @ 95.1 - Modesto, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHOPFM.mp3"
+    },
+    {
+      "name": "104.1 The Hawk - Modesto, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHKKFM.mp3"
+    },
+    {
+      "name": "La Unik Radio - Modesto, CA",
+      "url": "https://centova.hostingelectrica.net/proxy/unik_r2?mp=/stream"
+    },
+    {
+      "name": "KGPC 96.9 FM - Oakland, CA/Bay Area",
+      "url": "http://live.amperwave.net/direct/9thfloor-kgpcfmmp3-ibc1"
+    },
+    {
+      "name": "KQED FM 88.5 - Oakland, CA/Bay Area",
+      "url": "https://streams.kqed.org/kqedradio-pfs"
+    },
+    {
+      "name": "Bloomberg Radio 960 AM - Oakland, CA/Bay Area",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/WBBRSF.mp3"
+    },
+    {
+      "name": "KPOO 89.5 FM - San Francisco, CA/Bay Area",
+      "url": "http://amber.streamguys.com:5220/xstream"
+    },
+    {
+      "name": "KDFC 90.3FM - San Francisco, CA/Bay Area",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDFCFM.mp3"
+    },
+    {
+      "name": "KNBR 680 AM 104.5 FM - San Francisco, CA/Bay Area",
+      "url": "http://24963.live.streamtheworld.com:3690/KNBRAM.mp3"
+    },
+    {
+      "name": "KXSF 102.5 FM - San Francisco, CA/Bay Area",
+      "url": "http://stream3.streamq.net:8000/sfcr"
+    },
+    {
+      "name": "KSFO 560 AM - San Francisco, CA/Bay Area",
+      "url": "http://18803.live.streamtheworld.com:3690/KSFOAM.mp3"
+    },
+    {
+      "name": "KGO 810 AM - San Francisco, CA/Bay Area",
+      "url": "http://18543.live.streamtheworld.com:3690/KGOAM.mp3"
+    },
+    {
+      "name": "KFAX 1100 AM - San Francisco, CA/Bay Area",
+      "url": "http://24963.live.streamtheworld.com:3690/KFAXAM.mp3"
+    },
+    {
+      "name": "KEST 1450 AM - San Francisco, CA/Bay Area",
+      "url": "http://radiokest.serverroom.us:6670/stream.mp3"
+    },
+    {
+      "name": "KALX 90.7 - Berkeley, CA/Bay Area",
+      "url": "http://stream.kalx.berkeley.edu:8000/kalx-128.mp3"
+    },
+    {
+      "name": "KPFA-FM 94.1 Pacifica Radio - Berkeley, CA/Bay Area",
+      "url": "http://stream.kpft.org:8000/kpfa_64"
+    },
+    {
+      "name": "1190 AM The Light - Vallejo, CA",
+      "url": "http://19003.live.streamtheworld.com:3690/KDYAAM.mp3"
+    },
+    {
+      "name": "KCSM-FM Jazz 91.1 - San Mateo, CA/Bay Area",
+      "url": "http://ice7.securenetsystems.net/KCSM2"
+    },
+    {
+      "name": "107.7 The Bone - San Mateo, CA/Bay Area",
+      "url": "http://24963.live.streamtheworld.com:3690/KSANFM.mp3"
+    },
+    {
+      "name": "Bolly 92.3 - San Jose, CA/Bay Area",
+      "url": "http://www.streamcontrol.net:12010/;"
+    },
+    {
+      "name": "Mix 106.5 - San Jose, CA/Bay Area",
+      "url": "http://live.amperwave.net/direct/alphacorporate-kezrfmmp3-ibc4"
+    },
+    {
+      "name": "Bay Country 92.5 - San Jose, CA/Bay Area",
+      "url": "http://live.amperwave.net/direct/alphacorporate-kbayfmmp3-ibc4"
+    },
+    {
+      "name": "KHAY - Oxnard, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KHAYFM.mp3"
+    },
+    {
+      "name": "106.3 The Vibe - Oxnard, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVYBFM.mp3"
+    },
+    {
+      "name": "95.1 KBBY Ventura - Oxnard, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KBBYFM.mp3"
+    },
+    {
+      "name": "98.3 FM The Word - Oxnard, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KDARFM.mp3"
+    },
+    {
+      "name": "Oasis Radio 107.9 FM - Oxnard, CA",
+      "url": "https://centova.hostingelectrica.net/proxy/hmarti00/stream"
+    },
+    {
+      "name": "KRUZ 103.3 FM - Oxnard, CA",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KRUZFM.mp3"
+    },
+    {
+      "name": "RED FM - Redding, CA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBBKHD2.mp3"
+    },
+    {
+      "name": "Coby's Country - Redding, CA",
+      "url": "https://streaming.live365.com/a13311"
+    },
+    {
+      "name": "KVIP Radio - Redding, CA",
+      "url": "https://ic1.sslstream.com/kvip.mp3"
+    },
+    {
+      "name": "K-ZAP KZHP-FM 93.3",
+      "url": "http://janus.cdnstream.com:5160/live"
+    },
+    {
+      "name": "CapRadio - News KXJZ-FM FM 88.1 90.5 90.9 91.3",
+      "url": "http://19803.live.streamtheworld.com:3690/KXJZ.mp3"
+    },
+    {
+      "name": "CapRadio - Music KXPR-FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXPR.mp3"
+    },
+    {
+      "name": "CapRadio - Classical FM 88.7 88.9 90.9 91.7",
+      "url": "http://24883.live.streamtheworld.com:3690/CLASSICALSTREAM.mp3"
+    },
+    {
+      "name": "CapRadio-Jazz",
+      "url": "http://18683.live.streamtheworld.com:3690/JAZZSTREAM.mp3"
+    },
+    {
+      "name": "Fuego 103.5 & 98.9 KHHM FM 101.9 103.5",
+      "url": "http://27143.live.streamtheworld.com:3690/KHHMFM.mp3"
+    },
+    {
+      "name": "The Zephyr KZFR-FM FM 90.1",
+      "url": "https://stream-tx3.radioparadise.com/kzfr"
+    },
+    {
+      "name": "Radio Santisimo Sacramento KCVV AM 1240 FM 95.7",
+      "url": "http://santissimo.stream.miriamtech.net:8000/kcvv"
+    },
+    {
+      "name": "KJAY AM 1430 FM 98.1",
+      "url": "https://crystalout.surfernetwork.com:8001/KJAY-AM_MP3"
+    },
+    { "name": "KYDS", "url": "http://c11.radioboss.fm:18079/stream" },
+    {
+      "name": "KUBU-LP 96.5",
+      "url": "https://crystalout.surfernetwork.com:8001/KUBU-LP_MP3"
+    },
+    {
+      "name": "102.9 The Fish",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKFSFM.mp3"
+    },
+    {
+      "name": "NOAA Weather Radio KEC 57",
+      "url": "http://wxradio.dyndns.org:8000/Sacramento-KEC57.mp3"
+    },
+    {
+      "name": "Praise FM",
+      "url": "http://klvv-praise.streamguys.us/Praise96k"
+    },
+    {
+      "name": "The Hugh Hewitt Show",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HEWIIR.mp3"
+    },
+    {
+      "name": "Got Radio Adult Hits–Top 40 Classic Hits",
+      "url": "https://pureplay.cdnstream1.com/6022_128.mp3"
+    },
+    {
+      "name": "Got Radio AAA Boulevard",
+      "url": "https://pureplay.cdnstream1.com/6032_128.mp3"
+    },
+    {
+      "name": "Got Radio Alternative Rock",
+      "url": "https://pureplay.cdnstream1.com/6033_128.mp3"
+    },
+    {
+      "name": "Got Radio Big Band Land",
+      "url": "https://pureplay.cdnstream1.com/6004_128.mp3"
+    },
+    {
+      "name": "Got Radio Bit 'O Blues",
+      "url": "https://pureplay.cdnstream1.com/6019_128.mp3"
+    },
+    {
+      "name": "Got Radio Bluegrass",
+      "url": "https://pureplay.cdnstream1.com/6000_128.mp3"
+    },
+    {
+      "name": "Got Radio Celtic Crossing",
+      "url": "http://gr02.cdnstream.com:8010/;"
+    },
+    {
+      "name": "Got Radio Christmas Celebration",
+      "url": "https://pureplay.cdnstream1.com/6020_128.mp3"
+    },
+    {
+      "name": "Got Radio Christmas Instrumentals",
+      "url": "https://pureplay.cdnstream1.com/6061_128.mp3"
+    },
+    {
+      "name": "Got Radio Classic Country",
+      "url": "http://gr02.cdnstream.com:8090/;"
+    },
+    {
+      "name": "Got Radio Classic Rock",
+      "url": "https://pureplay.cdnstream1.com/6012_128.mp3"
+    },
+    {
+      "name": "Got Radio Country Christmas",
+      "url": "https://pureplay.cdnstream1.com/6031_128.mp3"
+    },
+    {
+      "name": "Got Radio Disco",
+      "url": "https://pureplay.cdnstream1.com/6055_128.mp3"
+    },
+    { "name": "Got Radio Folklore", "url": "http://gr02.cdnstream.com:8520/;" },
+    {
+      "name": "Got Radio Forever 50s",
+      "url": "https://pureplay.cdnstream1.com/6005_128.mp3?"
+    },
+    {
+      "name": "Got Radio Girl Power",
+      "url": "http://gr02.cdnstream.com:8110/;"
+    },
+    {
+      "name": "Got Radio Guitar Genius",
+      "url": "http://gr02.cdnstream.com:8020/;"
+    },
+    {
+      "name": "Got Radio Hip Hop Stop",
+      "url": "https://pureplay.cdnstream1.com/6041_128.mp3"
+    },
+    {
+      "name": "Got Radio Hot Hits",
+      "url": "https://pureplay.cdnstream1.com/6026_128.mp3"
+    },
+    {
+      "name": "Got Radio Jazz So Smooth",
+      "url": "https://pureplay.cdnstream1.com/6049_128.mp3"
+    },
+    {
+      "name": "Got Radio Jazz So True",
+      "url": "http://gr02.cdnstream.com:8450/;"
+    },
+    {
+      "name": "Got Radio New Age Nuance",
+      "url": "https://pureplay.cdnstream1.com/6016_128.mp3"
+    },
+    {
+      "name": "Got Radio OG's Hip Hop and R&B",
+      "url": "http://gr02.cdnstream.com:8580/;"
+    },
+    {
+      "name": "Got Radio Metal Madness",
+      "url": "http://gr02.cdnstream.com:8340/;"
+    },
+    {
+      "name": "Got Radio Musical Magic",
+      "url": "http://gr02.cdnstream.com:8540/"
+    },
+    {
+      "name": "Got Radio Oldies",
+      "url": "https://pureplay.cdnstream1.com/6007_128.mp3"
+    },
+    {
+      "name": "Got Radio Piano Perfect",
+      "url": "http://gr02.cdnstream.com:8050/;"
+    },
+    {
+      "name": "Got Radio R&B Classics",
+      "url": "https://pureplay.cdnstream1.com/6023_128.mp3"
+    },
+    {
+      "name": "Got Radio Reggae Rasta & Roots",
+      "url": "https://pureplay.cdnstream1.com/6051_128.mp3"
+    },
+    {
+      "name": "Got Radio Rock Room",
+      "url": "https://pureplay.cdnstream1.com/6035_128.mp3"
+    },
+    {
+      "name": "Got Radio Rockin 80's",
+      "url": "https://pureplay.cdnstream1.com/6008_128.mp3"
+    },
+    {
+      "name": "Got Radio The 90s Alternative",
+      "url": "https://pureplay.cdnstream1.com/6039_128.mp3"
+    },
+    { "name": "Got Radio The Mix", "url": "http://gr02.cdnstream.com:8250/;" },
+    {
+      "name": "Got Radio The 60s",
+      "url": "http://pureplay.cdnstream1.com/6011_128.mp3"
+    },
+    {
+      "name": "Got Radio The 70s",
+      "url": "http://pureplay.cdnstream1.com/6013_128.mp3"
+    },
+    {
+      "name": "Got Radio The 80s",
+      "url": "http://pureplay.cdnstream1.com/6009_128.mp3"
+    },
+    {
+      "name": "Got Radio The 90s",
+      "url": "https://pureplay.cdnstream1.com/6052_128.mp3"
+    },
+    {
+      "name": "Got Radio Soft Rock Café",
+      "url": "https://pureplay.cdnstream1.com/6010_128.mp3"
+    },
+    {
+      "name": "Got Radio Southern Rock",
+      "url": "https://pureplay.cdnstream1.com/6057_128.mp3"
+    },
+    {
+      "name": "Got Radio Texas Red Dirt",
+      "url": "https://pureplay.cdnstream1.com/6028_128.mp3"
+    },
+    {
+      "name": "Got Radio Today's Country",
+      "url": "https://pureplay.cdnstream1.com/6029_128.mp3"
+    },
+    {
+      "name": "Got Radio Top 40",
+      "url": "https://pureplay.cdnstream1.com/6024_128.mp3"
+    },
+    {
+      "name": "Got Radio Urban Jamz",
+      "url": "https://pureplay.cdnstream1.com/6044_128.mp3"
+    },
+    {
+      "name": "Got Radio Urban Lounge",
+      "url": "https://pureplay.cdnstream1.com/6053_128.mp3"
+    },
+    {
+      "name": "KSON FM Legendary Country",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KSONFM.mp3"
+    },
+    { "name": "KPBS 97.7", "url": "https://kpbs.streamguys1.com/kpbs-mp3" },
+    {
+      "name": "KSDW-FM 88.9 San Diego's Wave of Living Water",
+      "url": "https://14943.live.streamtheworld.com/KSDW.mp3"
+    },
+    {
+      "name": "Jazz 88.3 FM",
+      "url": "http://ksds-ice.streamguys.com/ksds.mp3"
+    },
+    {
+      "name": "KFBG-FM 100.7 BIG FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFBGFM.mp3"
+    },
+    {
+      "name": "Classical San Diego",
+      "url": "https://kpbs-classical.streamguys1.com/kpbs-classical"
+    },
+    { "name": "KDST", "url": "http://s4.radio.co/s2c33c7adb/listen" },
+    {
+      "name": "Soma FM Groove Salad",
+      "url": "https://ice1.somafm.com/groovesalad-128-mp3"
+    },
+    {
+      "name": "113.FM Alt Nation",
+      "url": "http://113fm-atunwadigital.streamguys1.com/1001"
+    },
+    {
+      "name": "113.FM Area 51",
+      "url": "http://113fm-atunwadigital.streamguys1.com/1002"
+    },
+    {
+      "name": "113.FM Awesome 80s",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1003"
+    },
+    {
+      "name": "113.FM Big Kickin Country",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1004"
+    },
+    {
+      "name": "113.fm - Bluesville",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1005"
+    },
+    {
+      "name": "113.FM Bang Bang",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1006"
+    },
+    {
+      "name": "113.FM Chill Zone",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1007"
+    },
+    {
+      "name": "113.FM Classic One",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1008"
+    },
+    {
+      "name": "113.FM Coffee House",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1009"
+    },
+    {
+      "name": "113.FM Elevator",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1010"
+    },
+    {
+      "name": "113.fm Energy! Radio",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1011"
+    },
+    {
+      "name": "113.fm - Flashback",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1012"
+    },
+    {
+      "name": "113.FM Free Bird",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1013"
+    },
+    {
+      "name": "113.FM 70s Hits-1970",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1014"
+    },
+    {
+      "name": "113.FM 70s Hits-1971",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1015"
+    },
+    {
+      "name": "113.FM 70s Hits-1972",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1016"
+    },
+    {
+      "name": "113.FM 70s Hits-1973",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1017"
+    },
+    {
+      "name": "113.FM 70s Hits-1974",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1018"
+    },
+    {
+      "name": "113.FM 70s Hits-1975",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1019"
+    },
+    {
+      "name": "113.FM 70s Hits-1976",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1020"
+    },
+    {
+      "name": "113.FM 70s Hits-1977",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1021"
+    },
+    {
+      "name": "113.FM 70s Hits-1978",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1022"
+    },
+    {
+      "name": "113.FM 70s Hits-1979",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1023"
+    },
+    {
+      "name": "113.FM 80s Hits-1980",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1024"
+    },
+    {
+      "name": "113.FM 80s Hits-1981",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1025"
+    },
+    {
+      "name": "113.FM 80s Hits-1982",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1026"
+    },
+    {
+      "name": "113.FM 80s Hits-1983",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1027"
+    },
+    {
+      "name": "113.FM 80s Hits-1984",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1028"
+    },
+    {
+      "name": "113.FM 80s Hits-1985",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1029"
+    },
+    {
+      "name": "113.FM 80s Hits-1986",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1030"
+    },
+    {
+      "name": "113.FM 80s Hits-1987",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1031"
+    },
+    {
+      "name": "113.FM 80s Hits-1988",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1032"
+    },
+    {
+      "name": "113.FM 80s Hits-1989",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1033"
+    },
+    {
+      "name": "113.FM 90s Hits-1990",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1034"
+    },
+    {
+      "name": "113.FM 90s Hits-1991",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1035"
+    },
+    {
+      "name": "113.FM 90s Hits-1992",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1036"
+    },
+    {
+      "name": "113.FM 90s Hits-1993",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1037"
+    },
+    {
+      "name": "113.FM 90s Hits-1994",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1038"
+    },
+    {
+      "name": "113.FM 90s Hits-1995",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1039"
+    },
+    {
+      "name": "113.FM 90s Hits-1996",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1040"
+    },
+    {
+      "name": "113.FM 90s Hits-1997",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1041"
+    },
+    {
+      "name": "113.FM 90s Hits-1998",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1042"
+    },
+    {
+      "name": "113.FM 90s Hits-1999",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1043"
+    },
+    {
+      "name": "113.FM 2K's (Top 40 / Hits)",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1044"
+    },
+    {
+      "name": "113.FM Hits 2K10's (Top 40 / Hits)",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1045"
+    },
+    {
+      "name": "113.FM Hits USA (Top 40 / Hits)",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1046"
+    },
+    {
+      "name": "113.FM Indie Nation",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1047"
+    },
+    {
+      "name": "113.FM Jitterbug",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1048"
+    },
+    {
+      "name": "113.FM K-Pop",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1049"
+    },
+    {
+      "name": "113.FM Lover's Lane (Love Songs)",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1050"
+    },
+    {
+      "name": "113.FM Mistletoe",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1051"
+    },
+    {
+      "name": "113.FM Pop'd",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1052"
+    },
+    {
+      "name": "113.FM Power!",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1053"
+    },
+    {
+      "name": "113.FM Q-Radio",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1054"
+    },
+    {
+      "name": "113.FM Relive",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1055"
+    },
+    {
+      "name": "113.fm RETRO! RADIO",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1056"
+    },
+    {
+      "name": "113.FM Revolution (60's Hits)",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1057"
+    },
+    {
+      "name": "113.FM Route 66",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1058"
+    },
+    {
+      "name": "113.FM Salsa!",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1059"
+    },
+    {
+      "name": "113.fm STAR! Radio",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1060"
+    },
+    {
+      "name": "113.FM Synthetic",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1061"
+    },
+    {
+      "name": "113.FM The Coast",
+      "url": "http://113fm-atunwadigital.streamguys1.com/1062"
+    },
+    {
+      "name": "113.FM The Eagle",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1063"
+    },
+    {
+      "name": "113.FM The Lounge",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1064"
+    },
+    {
+      "name": "113.FM The Crossing",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1065"
+    },
+    {
+      "name": "113.FM The Wave",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1066"
+    },
+    {
+      "name": "113.FM Jazzy",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1067"
+    },
+    {
+      "name": "113.FM Zen",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1068"
+    },
+    {
+      "name": "113.FM Prog Spectrum",
+      "url": "https://113fm-atunwadigital.streamguys1.com/1069"
+    },
+    {
+      "name": "San Diego's Wave of Living Water",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSDW.mp3"
+    },
+    {
+      "name": "KZOZ",
+      "url": "http://live.amperwave.net/direct/agmedia28-kzozfmmp3-ibc3"
+    },
+    { "name": "KCBX", "url": "https://kcbx-ice.streamguys1.com/kcbx-hi" },
+    {
+      "name": "92.5 The Krush",
+      "url": "http://live.amperwave.net/direct/agmedia28-kkalfmmp3-ibc3"
+    },
+    {
+      "name": "Eclectic 24",
+      "url": "https://kcrw.streamguys1.com/kcrw_128k_mp3_e24"
+    },
+    {
+      "name": "98.1 K-Jug",
+      "url": "http://live.amperwave.net/direct/agmedia28-kkjgfmmp3-ibc3"
+    },
+    {
+      "name": "NewsTalk 920",
+      "url": "http://live.amperwave.net/direct/agmedia28-kvecammp3-ibc3"
+    },
+    { "name": "KCBX HD2", "url": "https://kcbx-ice.streamguys1.com/hd2" },
+    { "name": "Q-Country", "url": "https://noasrv.caster.fm:10054/kznqfm" },
+    { "name": "KZSC", "url": "http://kzscfms1-geckohost.radioca.st/kzsclow" },
+    { "name": "KMBY", "url": "https://streaming1.kkdjfresno.com:9020/;" },
+    {
+      "name": "KCLU-FM",
+      "url": "http://kclustream.callutheran.edu:8092/kclump3"
+    },
+    {
+      "name": "Sunny Country KSNI FM 96.1 102.5",
+      "url": "https://live.wostreaming.net/direct/agmedia28-ksnifmmp3-ibc3"
+    },
+    {
+      "name": "KSMA",
+      "url": "http://live.amperwave.net/direct/agmedia28-ksmaammp3-ibc3"
+    },
+    {
+      "name": "KSXY Latino 100.9",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSXYFM.mp3"
+    },
+    { "name": "KSVY 91.3", "url": "https://stream.ksvy.org/stream" },
+    { "name": "101.7 The Fox", "url": "https://streaming.live365.com/a62423" },
+    {
+      "name": "Misionero Radio (Radio Cristiana)",
+      "url": "https://s27.myradiostream.com:17908/listen.mp3?nocache=1674474878"
+    },
+    {
+      "name": "KWIN-FM 97.7 98.3",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWINFM.mp3"
+    },
+    {
+      "name": "KJOY",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KJOYFM.mp3"
+    },
+    {
+      "name": "93.3 JDX",
+      "url": "https://streams.radiomast.io/c016eb2e-c600-4323-8a56-189b992e4560"
+    },
+    {
+      "name": "KSUE",
+      "url": "https://streams.radiomast.io/71e1636d-05a8-4565-9a33-1bde72f6d09b"
+    },
+    {
+      "name": "KMKX Max 93.5 FM",
+      "url": "http://crystalout.surfernetwork.com:8001/KMKX-FM_MP3"
+    },
+    {
+      "name": "KUKI 103.3 FM",
+      "url": "https://us9.maindigitalstream.com/ssl/KUKI"
+    },
+    {
+      "name": "94.5 K-Wine",
+      "url": "http://crystalout.surfernetwork.com:8001/KWNE-FM_MP3"
+    },
+    {
+      "name": "Pilgrim Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNISFM.mp3"
+    },
+    { "name": "KRJC", "url": "https://us2.maindigitalstream.com/ssl/KRJC" },
+    { "name": "KELK", "url": "https://us2.maindigitalstream.com/ssl/KELK" },
+    {
+      "name": "93.7 Jack FM",
+      "url": "https://us2.maindigitalstream.com/ssl/KLKO"
+    },
+    { "name": "KDSS 92.7 FM The Mix", "url": "http://ednixon.com:8100/stream" },
+    { "name": "Nevada Talk Radio", "url": "http://207.244.126.86:7200/stream" },
+    {
+      "name": "Radio Goldfield KGFN 89.1",
+      "url": "https://radiogoldfield.radioca.st/stream"
+    },
+    {
+      "name": "KCNV-FM",
+      "url": "https://24063.live.streamtheworld.com/KCNVFM_SC?dist=onlineradiobox"
+    },
+    {
+      "name": "SOS Radio Network",
+      "url": "http://ic2.sslstream.com/sosnet.mp3"
+    },
+    { "name": "La Campesina 96.7", "url": "http://bustosradio.com:8047/krcw" },
+    {
+      "name": "Fuego FM",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KRRNFM.mp3"
+    },
+    {
+      "name": "Hot 97.5",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVEGFM.mp3"
+    },
+    {
+      "name": "Coyote Country",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCYEFM.mp3"
+    },
+    {
+      "name": "News 88.9",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNPRFM.mp3"
+    },
+    {
+      "name": "Star Radio 107.9",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVGSFM.mp3"
+    },
+    {
+      "name": "KKLZ",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKLZFM.mp3"
+    },
+    {
+      "name": "Right Talk Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMZQAM.mp3"
+    },
+    {
+      "name": "105.3 Radio n B",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WOSFFM.mp3"
+    },
+    {
+      "name": "ESPN Las Vegas",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWWNAM.mp3"
+    },
+    {
+      "name": "97.1 The Point",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXPTFM.mp3"
+    },
+    {
+      "name": "Deportes Vegas",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KENOAM.mp3"
+    },
+    {
+      "name": "Raider Nation",
+      "url": "https://nfl-live.streamguys1.com/raiders/raiders-live.mp3"
+    },
+    {
+      "name": "Fox Sports Radio 1340",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRLVAM.mp3"
+    },
+    {
+      "name": "1230 AM The Game",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLAVAM.mp3"
+    },
+    {
+      "name": "La Verdad Radio",
+      "url": "https://sp.unoredcdn.net/8024/stream"
+    },
+    {
+      "name": "KOMP 92.3",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOMPFM.mp3"
+    },
+    {
+      "name": "99.7 KHYZ",
+      "url": "http://lvradio.lvonline.com/stream?type=.mp3"
+    },
+    {
+      "name": "K Bull 98.1 FM",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KBULFM.mp3"
+    },
+    { "name": "KUNR Public Radio", "url": "http://kunrstream.com:8000/live" },
+    {
+      "name": "Rock 104.5",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KDOTFM.mp3"
+    },
+    {
+      "name": "KNEV The Vibe 95.5 FM",
+      "url": "https://18253.live.streamtheworld.com/KNEVFM_SC"
+    },
+    {
+      "name": "Wild 102.9",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWYLFM.mp3"
+    },
+    {
+      "name": "KOZZ",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOZZFM.mp3"
+    },
+    { "name": "KNCJ 89.5", "url": "http://kncjstream.com:8000/live" },
+    {
+      "name": "Radio Vida 1550 AM",
+      "url": "https://shout2.brnstream.com/proxy/kxto?mp=/stream"
+    },
+    { "name": "K Book 93.3", "url": "http://cast5.citrus3.com:8024/;" },
+    { "name": "KWNK 97.7", "url": "https://s3.radio.co/sd2b4bf544/listen" },
+    {
+      "name": "News Talk 780 KOH",
+      "url": "https://17813.live.streamtheworld.com/KKOHAM.mp3"
+    },
+    {
+      "name": "Mix 102.7 FM",
+      "url": "https://s20.myradiostream.com/:16732/listen.mp3"
+    },
+    {
+      "name": "Rock 94.3",
+      "url": "https://s20.myradiostream.com/:16734/listen.mp3"
+    },
+    {
+      "name": "92.9 KAFF Country",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAFFFM.mp3"
+    },
+    {
+      "name": "Arizona Public Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNAUFM_32.mp3"
+    },
+    {
+      "name": "100. One KVNA FM",
+      "url": "http://live.amperwave.net/direct/yavapai-kvnafmmp3-ibc1"
+    },
+    {
+      "name": "93.9 The Mountain",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KMGNFM.mp3"
+    },
+    {
+      "name": "Arizona Public Radio News Stream",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KPUBFM_128.mp3"
+    },
+    {
+      "name": "935 AM The Legend",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KAFFAM.mp3"
+    },
+    { "name": "K-Jack Radio", "url": "http://stream.ec.nau.edu:8000/kjack" },
+    {
+      "name": "Radio Sunnyside KZSN 101.5",
+      "url": "http://208.113.128.99:8000/stream"
+    },
+    { "name": "Juke Box 1240 AM", "url": "http://globecasting.us:8000/KJAA" },
+    {
+      "name": "K Jazz 91.5",
+      "url": "https://kjzz.streamguys1.com/kjzz_mp3_48"
+    },
+    { "name": "Radio Kasa", "url": "https://stream9.mexiserver.com:7055/;" },
+    {
+      "name": "Oldies 92.7 - 1440 AM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAZGAM.mp3"
+    },
+    {
+      "name": "89.5 K Bach",
+      "url": "https://kbaq.streamguys1.com/kbaq_mp3_128"
+    },
+    {
+      "name": "Power 95.7",
+      "url": "https://stream.radiojar.com/s9y596g305quv"
+    },
+    {
+      "name": "KLPX 96.1 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KLPXFM.mp3"
+    },
+    {
+      "name": "Real Country 96.3",
+      "url": "https://crystalout.surfernetwork.com:8001/KSWG_MP3"
+    },
+    {
+      "name": "KAWC Colorado River Public Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAWCFM.mp3"
+    },
+    {
+      "name": "KOFA Border Radio",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KAWCAM.mp3"
+    },
+    { "name": "KYMZ 99.9 FM", "url": "https://s4.radio.co/s376740a0f/listen" },
+    {
+      "name": "KKOB 96.3 FM 770 AM",
+      "url": "https://22963.live.streamtheworld.com/KKOBAM_SC"
+    },
+    {
+      "name": "New Mexico Public Radio KANW 89.1 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANWFM.mp3"
+    },
+    {
+      "name": "KUNM 89.9 FM University of NM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUNMFM_128.mp3"
+    },
+    {
+      "name": "KANW HD2 107.5 FM",
+      "url": "https://22973.live.streamtheworld.com/KANWHD2.mp3"
+    },
+    {
+      "name": "93.3 The Q",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KOBQFM.mp3"
+    },
+    {
+      "name": "KRST",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRSTFM.mp3"
+    },
+    {
+      "name": "KWRR 89.5",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NV1.mp3"
+    },
+    {
+      "name": "103.3 Ed FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDRFFM.mp3"
+    },
+    {
+      "name": "Coyote Albuquerque FM",
+      "url": "http://live.amperwave.net/direct/agmedia28-kiotfmmp3-ibc3"
+    },
+    {
+      "name": "Magic 99.5",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KMGAFM.mp3"
+    },
+    {
+      "name": "The Sports Animal",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KNMLAM.mp3"
+    },
+    {
+      "name": "Fox News Radio ABQ",
+      "url": "http://uk1.internet-radio.com:15889/stream"
+    },
+    {
+      "name": "103.7 The Oasis",
+      "url": "https://ice42.securenetsystems.net/KOAZAM"
+    },
+    { "name": "Sunny 101.3", "url": "https://ice41.securenetsystems.net/KYLZ" },
+    {
+      "name": "94.5 The Pit",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KTBLAM.mp3"
+    },
+    {
+      "name": "La Mexicana 106.3",
+      "url": "https://ice42.securenetsystems.net/KDLWFM"
+    },
+    {
+      "name": "Fierro 106.1",
+      "url": "https://ice3.securenetsystems.net/KPZEM"
+    },
+    { "name": "97.5 The Bear", "url": "http://dfw.audio-stream.com:8005/live" },
+    { "name": "Big 101.5", "url": "https://streaming.live365.com/a32900" },
+    { "name": "Mix 107.5", "url": "https://streaming.live365.com/a90519" },
+    {
+      "name": "Gallup Public Radio",
+      "url": "http://64.106.24.51:88/broadwave.mp3"
+    },
+    {
+      "name": "KLEA Kool 95.7 FM",
+      "url": "https://us2.maindigitalstream.com/ssl/KLEA"
+    },
+    {
+      "name": "KEJL The Eagle 100.5 FM",
+      "url": "https://ais-sa2.cdnstream1.com/2341_128.mp3"
+    },
+    {
+      "name": "KZOR 94.1 FM",
+      "url": "https://ais-sa2.cdnstream1.com/2338_128.mp3"
+    },
+    {
+      "name": "KIXN KIX 103 102.9 FM",
+      "url": "https://ais-sa2.cdnstream1.com/2337_128.mp3"
+    },
+    {
+      "name": "Las Cruces Community Radio 101.5 FM",
+      "url": "https://ktal.broadcasttool.stream/stream"
+    },
+    {
+      "name": "Kool Oldies 104.5 and AM 570",
+      "url": "https://live.amperwave.net/direct/adamsradio-kwmlammp3-ibc1"
+    },
+    { "name": "KRUX", "url": "https://kruxstream.nmsu.edu/KRUX" },
+    {
+      "name": "Your Country 103.9 KGRT",
+      "url": "https://live.amperwave.net/direct/adamsradio-kgrtfmmp3-ibc1"
+    },
+    {
+      "name": "Roswell's Talk FM",
+      "url": "https://ice3.securenetsystems.net/KENDM"
+    },
+    { "name": "The Lion", "url": "https://ic2.sslstream.com/kssr-fm?rnd=2402" },
+    {
+      "name": "Mix 105.1",
+      "url": "https://live.amperwave.net/direct/agmedia28-kkrgfmmp3-ibc3"
+    },
+    {
+      "name": "Kiss 97.3",
+      "url": "https://live.amperwave.net/direct/agmedia28-kkssfmmp3-ibc3"
+    },
+    {
+      "name": "KBAC 98.1 FM",
+      "url": "https://shoutcast.brownrice.com:8000/stream"
+    },
+    {
+      "name": "Classical 95.5 KHFM",
+      "url": "https://live.amperwave.net/direct/agmedia28-khfmfmmp3-ibc3"
+    },
+    { "name": "KQAY-FM", "url": "https://sc8.streamingpulse.info/ssl/KQAY?f" },
+    { "name": "KRKT", "url": "https://us9.maindigitalstream.com/ssl/KRKT" },
+    {
+      "name": "Hope 107.9",
+      "url": "https://extramilemedia.streamguys1.com/live"
+    },
+    {
+      "name": "KCMB",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCMBFM.mp3"
+    },
+    {
+      "name": "96.1 KZEL Rocks",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KZELFM.mp3"
+    },
+    {
+      "name": "KXRY X-RAY 91.1 FM",
+      "url": "http://listen.xray.fm:8000/stream"
+    },
+    {
+      "name": "92.9 KISM",
+      "url": "https://prod-54-224-126-57.wostreaming.net/saga-kismfmmp3-ibc1?session-id=f6c9317386f2c133997e547a7eec5fae"
+    },
+    {
+      "name": "KEXP 90.3 FM",
+      "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3"
+    },
+    {
+      "name": "KKXA 1520 AM",
+      "url": "http://www.ophanim.net:9410/stream?type=http&nocache=25359"
+    },
+    {
+      "name": "KIXI 880 AM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KIXIAM.mp3"
+    },
+    {
+      "name": "KBER 101.1 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBERFM.mp3"
+    },
+    {
+      "name": "KENZ Power 94.9",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KENZFM.mp3"
+    },
+    {
+      "name": "670 KBOI",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KBOIAM.mp3"
+    },
+    {
+      "name": "Power 105.5",
+      "url": "http://live.amperwave.net/direct/townsquare-kfxdfmmp3-ibc3"
+    },
+    {
+      "name": "Kissin' 92",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KIZNFM.mp3"
+    },
+    {
+      "name": "105.1 Jack FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KJOTFM.mp3"
+    },
+    {
+      "name": "Magic 97.9",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KQFCFM.mp3"
+    },
+    {
+      "name": "100.3 The X",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KQXRFM.mp3"
+    },
+    {
+      "name": "KBOI-FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTIKFM.mp3"
+    },
+    {
+      "name": "96.9 The Eagle",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KKGLFM.mp3"
+    },
+    {
+      "name": "KID News Radio",
+      "url": "https://ice24.securenetsystems.net/KIDAM"
+    },
+    {
+      "name": "Z-Rock 96.5",
+      "url": "https://live.wostreaming.net/direct/mcvey-kozefmmp3-ibc1"
+    },
+    {
+      "name": "94.9 & 104.5 The Pick",
+      "url": "https://ice24.securenetsystems.net/KPKY"
+    },
+    {
+      "name": "KLIX News Radio 1310",
+      "url": "https://live.wostreaming.net/direct/townsquare-klixammp3-ibc3"
+    },
+    {
+      "name": "95.7 KEZJ",
+      "url": "https://live.wostreaming.net/direct/townsquare-kezjfmmp3-ibc3"
+    },
+    {
+      "name": "Kool 96.5",
+      "url": "https://live.wostreaming.net/direct/townsquare-klixfmmp3-ibc3"
+    },
+    {
+      "name": "98.3 The Snake",
+      "url": "https://live.wostreaming.net/direct/townsquare-ksnqfmmp3-ibc3"
+    },
+    {
+      "name": "Classic Rock 98.1",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KKFMFM.mp3"
+    },
+    {
+      "name": "Cat Country 95.1 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KATCFM.mp3"
+    },
+    {
+      "name": "KXPK La Tricolor 96.5 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KXPKFM.mp3"
+    },
+    {
+      "name": "KSPK 100.3 and 102.3 FM",
+      "url": "http://stream.kspk.com:8000/live.mp3"
+    },
+    {
+      "name": "The Blaze Radio Network",
+      "url": "http://17563.live.streamtheworld.com:3690/BLZE_1_SC"
+    },
+    {
+      "name": "D-Rock Radio",
+      "url": "https://ais-edge50-live365-dal02.cdnstream.com/a07118"
+    },
+    {
+      "name": "Way Loud Radio",
+      "url": "https://wayfm.streamguys1.com/powerfm.mp3"
+    },
+    {
+      "name": "KBFB The Beat 97.9 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBFBFM.mp3"
+    },
+    {
+      "name": "KPLX The Wolf 99.5 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPLXFM.mp3"
+    },
+    {
+      "name": "KRBE 104.1 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRBEFM.mp3"
+    },
+    {
+      "name": "Q94.5",
+      "url": "https://18213.live.streamtheworld.com/KFRQFM.mp3"
+    },
+    {
+      "name": "Ethereal Radio",
+      "url": "https://s5.radio.co/saac615442/listen"
+    },
+    {
+      "name": "KZHE 100.5 FM",
+      "url": "http://crystalout.surfernetwork.com:8001/KZHE-FM_MP3"
+    },
+    {
+      "name": "104.7 The Bear",
+      "url": "https://14983.live.streamtheworld.com/KYYIFM.mp3"
+    },
+    {
+      "name": "92.5 KOMA",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KOMAHD2.mp3"
+    },
+    {
+      "name": "The Spy",
+      "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/KOSUHD2.mp3"
+    },
+    {
+      "name": "KGOU - Your NPR Source",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOUFM_64.mp3"
+    },
+    {
+      "name": "KATT 100.5 FM",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KATTFM.mp3"
+    },
+    {
+      "name": "KACZ 96.3 FM",
+      "url": "http://crystalout.surfernetwork.com:8001/KACZ_MP3"
+    },
+    {
+      "name": "KHMY My 93.1 FM",
+      "url": "https://ice9.securenetsystems.net/KHMY2"
+    },
+    {
+      "name": "KLXQ The Rocket 101.9 FM",
+      "url": "https://crystalout.surfernetwork.com:8001/KLXQ-FM_MP3"
+    },
+    {
+      "name": "KLRE 90.5 FM",
+      "url": "https://22223.live.streamtheworld.com/KLREFM_SC"
+    },
+    {
+      "name": "KURB 98.5 FM",
+      "url": "https://13743.live.streamtheworld.com/KURBFM_SC"
+    },
+    {
+      "name": "KLAL Alice 107.7 FM",
+      "url": "https://18723.live.streamtheworld.com/KLALFM_SC"
+    },
+    {
+      "name": "KZHE 100.5 FM (Texarkana AR)",
+      "url": "http://crystalout.surfernetwork.com:8001/KZHE-FM_MP3"
+    },
+    {
+      "name": "KAMS 95.1 FM",
+      "url": "http://crystalout.surfernetwork.com:8001/KAMS_MP3"
+    },
+    {
+      "name": "KQIS KISS 1340 AM 105.3 FM",
+      "url": "https://crystalout.surfernetwork.com:8001/KQIS-FM_MP3"
+    },
+    {
+      "name": "WJST Jet Set Radio",
+      "url": "https://streaming.live365.com/a25017"
+    },
+    {
+      "name": "181.FM The Buzz",
+      "url": "https://listen.181fm.com/181-buzz_128k.mp3"
+    },
+    {
+      "name": "181.FM Trance Jazz",
+      "url": "https://listen.181fm.com/181-trancejazz_128k.mp3"
+    },
+    {
+      "name": "WEQX 102.7",
+      "url": "http://crystalout.surfernetwork.com:8001/WEQX_MP3"
+    },
+    {
+      "name": "106.7 WIZN",
+      "url": "http://26433.live.streamtheworld.com/WIZNFM.mp3"
+    },
+    {
+      "name": "95.5 I-95",
+      "url": "http://17553.live.streamtheworld.com/WIXVFM.mp3"
+    },
+    {
+      "name": "KCMP Current 89.3 FM",
+      "url": "http://current.stream.publicradio.org/current.mp3"
+    },
+    {
+      "name": "WMRQ HD1 104.1 FM",
+      "url": "http://crystalout.surfernetwork.com:8001/WMRQ_MP3"
+    },
+    {
+      "name": "WFIV 105.3 FM",
+      "url": "http://crystalout.surfernetwork.com:8001/WFGF-FM_MP3"
+    },
+    {
+      "name": "RFC Alternative Hits",
+      "url": "http://rfcmedia.streamguys1.com/alternativehits.mp3"
+    },
+    {
+      "name": "RFC Alternative Hits #2",
+      "url": "http://rfcmedia.streamguys1.com/alternativehitspremium.mp3"
+    },
+    {
+      "name": "RFC Alternative Hits #3",
+      "url": "http://rfcmedia.streamguys1.com/sraltrockhits.mp3"
+    },
+    {
+      "name": "WAME Legends 550 AM",
+      "url": "http://crystalout.surfernetwork.com:8001/WAME-AM_MP3"
+    },
+    {
+      "name": "ESPN Radio",
+      "url": "http://live.wostreaming.net/direct/espn-networkmp3-ll-48"
+    }
+  ]
+}
