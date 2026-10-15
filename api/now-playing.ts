@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { fetchIcyTitle } from "../server/icy";
-import { stations } from "../src/stations";
+import { fetchIcyTitle } from "../server/icy.js";
+import { stations } from "../src/stations.js";
 
 // Vercel serverless function: GET /api/now-playing?url=<stream>
 // Reads ICY "now playing" metadata server-side (same logic as the Vite dev proxy).
