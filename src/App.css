@@ -436,7 +436,7 @@
 }
 
 /* Empty state */
-.empty {
+.empty-state {
   grid-column: 1 / -1;
   display: flex;
   flex-direction: column;
@@ -759,24 +759,113 @@
 /* ------------------------------------------------------------------ Responsive */
 @media (max-width: 680px) {
   .app {
-    padding-bottom: 210px;
+    padding-bottom: 110px;
+  }
+
+  /* nameplate: brand + icon buttons on one line, search below */
+  .topbar {
+    gap: 12px 8px;
+    padding: 16px 0 12px;
+  }
+  .brand {
+    gap: 10px;
+    min-width: 0;
+  }
+  .brand-badge {
+    width: 40px;
+    height: 40px;
+  }
+  .brand-text h1 {
+    font-size: 24px;
   }
   .brand-text p {
     display: none;
   }
+  .pill {
+    height: 40px;
+  }
+  .fav-toggle {
+    padding: 0;
+    width: 40px;
+    justify-content: center;
+  }
+  .fav-toggle span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .pill.icon-only {
+    width: 40px;
+  }
   .search {
     order: 3;
-    max-width: none;
     flex-basis: 100%;
+    max-width: none;
+    height: 42px;
   }
+
+  /* genre chips: one swipeable row instead of three wrapped rows */
+  .genres {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 0 calc(-1 * clamp(14px, 3.5vw, 40px)) 14px;
+    padding: 2px clamp(14px, 3.5vw, 40px) 6px;
+    scrollbar-width: none;
+  }
+  .genres::-webkit-scrollbar {
+    display: none;
+  }
+  .chip {
+    flex: none;
+  }
+
+  /* player: single-row mini player pinned to the bottom */
   .player {
-    padding: 12px 14px 14px;
-    flex-direction: column;
-    align-items: stretch;
+    width: calc(100vw - 20px);
+    bottom: max(10px, env(safe-area-inset-bottom));
+    gap: 10px;
+    padding: 9px 10px;
+    border-radius: 14px;
+  }
+  .p-top {
+    gap: 10px;
+  }
+  .cover-box {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+  }
+  .now-meta {
+    padding: 4px 8px;
+  }
+  .now-name {
+    font-size: 20px;
+  }
+  .now-status {
+    font-size: 15px;
   }
   .p-bar {
-    justify-content: space-between;
+    gap: 0;
   }
+  .controls {
+    gap: 4px;
+  }
+  .ctrl {
+    width: 34px;
+    height: 34px;
+  }
+  .play-main {
+    width: 46px;
+    height: 46px;
+  }
+  /* phones use hardware volume keys (iOS ignores audio.volume anyway) */
+  .volume {
+    display: none;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }

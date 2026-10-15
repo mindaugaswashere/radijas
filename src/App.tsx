@@ -432,7 +432,7 @@ export default function App() {
         })}
 
         {filtered.length === 0 && (
-          <div className="empty">
+          <div className="empty-state">
             <Radio size={40} />
             <p>Nerasta stočių pagal filtrą.</p>
           </div>
