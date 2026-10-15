@@ -807,19 +807,13 @@
     height: 42px;
   }
 
-  /* genre chips: one swipeable row instead of three wrapped rows */
+  /* no genre filter on phones; search covers it (genre isn't persisted, so
+     it's always "Visos" here) */
   .genres {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    margin: 0 calc(-1 * clamp(14px, 3.5vw, 40px)) 14px;
-    padding: 2px clamp(14px, 3.5vw, 40px) 6px;
-    scrollbar-width: none;
-  }
-  .genres::-webkit-scrollbar {
     display: none;
   }
-  .chip {
-    flex: none;
+  .dial {
+    margin-bottom: 14px;
   }
 
   /* player: single-row mini player pinned to the bottom */
