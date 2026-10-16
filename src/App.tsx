@@ -311,7 +311,7 @@ export default function App() {
             <Radio size={22} strokeWidth={2.4} />
           </span>
           <div className="brand-text">
-            <h1>Radijas</h1>
+            <h1>Imtuvas</h1>
             <p>Lietuvos radijo stotys</p>
           </div>
         </div>

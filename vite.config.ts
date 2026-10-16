@@ -43,9 +43,9 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "My Radio App",
-        short_name: "Radio App",
-        description: "A Progressive Web App for streaming radio stations",
+        name: "Imtuvas",
+        short_name: "Imtuvas",
+        description: "Lietuvos radijo stotys gyvai",
         theme_color: "#1A1A1A",
         background_color: "#1A1A1A",
         display: "standalone",

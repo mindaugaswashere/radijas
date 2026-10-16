@@ -42,7 +42,7 @@ export function fetchIcyTitle(streamUrl: string, timeoutMs = 8000): Promise<stri
       socket.write(
         `GET ${path} HTTP/1.0\r\n` +
           `Host: ${u.host}\r\n` +
-          `User-Agent: Radijas/1.0\r\n` +
+          `User-Agent: Imtuvas/1.0\r\n` +
           `Icy-MetaData: 1\r\n` +
           `Connection: close\r\n\r\n`,
       );
