@@ -61,9 +61,13 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,svg}"],
+        // Only our own static files go through the service worker. Radio streams
+        // (cross-origin) and /api/ must never match a route: caching an endless
+        // stream keeps the fetch event alive until Chrome kills the worker at
+        // ~5 min, which cuts the audio.
         runtimeCaching: [
           {
-            urlPattern: ({ url }: any) => url.pathname.startsWith("/"),
+            urlPattern: ({ url, sameOrigin }: any) => sameOrigin && !url.pathname.startsWith("/api/"),
             handler: "NetworkFirst", // always try the network first; fall back to cache only offline
             options: {
               cacheName: "pages-cache",
@@ -73,10 +77,6 @@ export default defineConfig({
                 maxAgeSeconds: 24 * 60 * 60, // 1 day
               },
             },
-          },
-          {
-            urlPattern: ({ url }: any) => url.origin.includes("stream"),
-            handler: "NetworkOnly", // No caching for live streams
           },
         ],
       },

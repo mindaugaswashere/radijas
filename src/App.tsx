@@ -24,6 +24,7 @@ const LS_FAVORITES = "radijas.favorites";
 const LS_VOLUME = "radijas.volume";
 const LS_LAST = "radijas.lastIndex";
 const LS_THEME = "radijas.theme";
+const MAX_RETRIES = 5;
 const DEFAULT_HUE = 265;
 
 type Theme = "light" | "dark";
@@ -112,6 +113,9 @@ export default function App() {
   });
   const [status, setStatus] = useState<Status>("idle");
   const [isPlaying, setIsPlaying] = useState(false);
+  // true while the user wants sound (pressed play, hasn't paused)
+  const wantPlay = useRef(false);
+  const [retry, setRetry] = useState(0);
   const [volume, setVolume] = useState<number>(() => {
     const raw = localStorage.getItem(LS_VOLUME);
     const n = raw == null ? NaN : Number(raw);
@@ -161,6 +165,8 @@ export default function App() {
     }
     setCurrentIndex(index);
     setStatus("loading");
+    wantPlay.current = true;
+    setRetry(0);
     audio.src = stations[index].url;
     audio.load();
     void audio.play().catch(() => setStatus("error"));
@@ -171,8 +177,11 @@ export default function App() {
     if (!audio || currentIndex == null) return;
     if (audio.paused) {
       setStatus("loading");
+      wantPlay.current = true;
+      setRetry(0);
       void audio.play().catch(() => setStatus("error"));
     } else {
+      wantPlay.current = false;
       audio.pause();
     }
   };
@@ -217,6 +226,32 @@ export default function App() {
       audio.muted = muted;
     }
   }, [volume, muted]);
+
+  // Reconnect a live stream that stalls or errors (network switch, dropped
+  // connection): live audio never resumes by itself, so restart it.
+  useEffect(() => {
+    if (currentIndex == null || !wantPlay.current) return;
+    if (status !== "loading" && status !== "error") return;
+    const id = setTimeout(
+      () => {
+        const audio = audioRef.current;
+        if (!audio || !wantPlay.current) return;
+        if (retry >= MAX_RETRIES) {
+          wantPlay.current = false;
+          audio.pause();
+          setStatus("error");
+          return;
+        }
+        setRetry((r) => r + 1);
+        setStatus("loading");
+        audio.src = stations[currentIndex].url;
+        audio.load();
+        void audio.play().catch(() => setStatus("error"));
+      },
+      status === "error" ? 3000 : 10000
+    );
+    return () => clearTimeout(id);
+  }, [status, retry, currentIndex]);
 
   // Keyboard shortcuts.
   useEffect(() => {
@@ -444,7 +479,10 @@ export default function App() {
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
         onWaiting={() => setStatus("loading")}
-        onPlaying={() => setStatus("playing")}
+        onPlaying={() => {
+          setStatus("playing");
+          setRetry(0);
+        }}
         onError={() => {
           setStatus("error");
           setIsPlaying(false);
